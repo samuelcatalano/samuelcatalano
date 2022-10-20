@@ -10,5 +10,5 @@
 - 🤔 I’m looking for help with ... AWS, Google Cloud Platform and Kubernetes
 - 💬 Ask me about ... Anything that you want to know
 - 📫 How to reach me ... on my [LinkedIn](https://www.linkedin.com/in/samuelcatalano/)
-- 😄 Pronouns ... He/Him
+- 😄 Pronouns ... He/Him/His
 - ⚡ Fun fact ... I have Italian citizenship but I don't speak Italian
