@@ -4,7 +4,7 @@
 
 - 👨‍💻 Who am I ... My name is Samuel and I'm a Software Engineer from São Paulo, Brazil
 - 🏠 Today I live ... in London, United Kingdom
-- 🔭 I’m currently working at ... OLM Systems
+- 🔭 I’m currently ... open for new opportunities
 - 🌱 I’m currently learning ... more about Java Core, Quarkus.io and some Python
 - 👯 I’m looking to collaborate on ... Java projects, Kotlin projects, Spring Boot and Quarkus.io
 - 🤔 I’m looking for help with ... AWS, Google Cloud Platform and Kubernetes
