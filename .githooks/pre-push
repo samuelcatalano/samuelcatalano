@@ -4,7 +4,7 @@ set -euo pipefail
 tmpfile="$(mktemp)"
 git log -1 --pretty=%B > "$tmpfile"
 
-if python3 scripts/validate_commit_message.py "$tmpfile"; then
+if ./.venv/bin/python scripts/validate_commit_message.py "$tmpfile"; then
   rm -f "$tmpfile"
   exit 0
 fi
@@ -14,7 +14,7 @@ echo "Push blocked: last commit message is invalid."
 echo "If ONLY the subject is wrong, I can ask the AI to suggest a corrected English subject."
 echo ""
 
-python3 scripts/ai_subject_coach.py "$tmpfile" || {
+./.venv/bin/python scripts/ai_subject_coach.py "$tmpfile" || {
   rm -f "$tmpfile"
   exit 1
 }
@@ -23,7 +23,7 @@ rm -f "$tmpfile"
 
 tmpfile2="$(mktemp)"
 git log -1 --pretty=%B > "$tmpfile2"
-python3 scripts/validate_commit_message.py "$tmpfile2" || {
+./.venv/bin/python scripts/validate_commit_message.py "$tmpfile2" || {
   rm -f "$tmpfile2"
   exit 1
 }
