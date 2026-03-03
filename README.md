@@ -1,4 +1,4 @@
-### Hi there! How are you?? 👋
+### Hi there! How are you? 👋
 
 #### Get to know me a little more:
 
